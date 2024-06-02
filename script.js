@@ -64,4 +64,25 @@ menuBtn.addEventListener('click', function() {
 
 document.addEventListener('DOMContentLoaded', function() {
     startTime();
+    const themePreference = localStorage.getItem('themePreference');
+    if (themePreference === 'dark') {
+        document.body.classList.add('lightMode');
+        themeToggle.textContent = 'Dark';
+    }
 });
+
+const themeToggle = document.getElementById('themeToggle');
+themeToggle.addEventListener('click', lightMode);
+
+function lightMode() {
+    var element = document.body;
+    if (element.classList.contains("lightMode")) {
+        element.classList.remove("lightMode");
+        themeToggle.textContent = "Light";
+        localStorage.setItem('themePreference', 'light');
+    } else {
+        element.classList.add("lightMode");
+        themeToggle.textContent = "Dark";
+        localStorage.setItem('themePreference', 'dark');
+    }
+}

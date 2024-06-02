@@ -1,17 +1,27 @@
 :root {
     --bg: #000000;
-    --fc: #d9d9d9;
+    --fc: #F3F4E5;
+}
+
+.lightMode {
+    --bg: #F3F4E5;
+    --fc: #000000;
 }
 
 html, body {
     height: 100%;
     margin: 0; 
-    background-color: var(--bg);
     font-family: "Roboto";
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--fc);
 }
 
 .container {
@@ -72,7 +82,7 @@ html, body {
     width: 220px;
     height: 100%;
     background-color: var(--bg);
-    color: #fff;
+    color: var(--fc);
     transition: right 0.5s ease;
     box-shadow: 0 0 2px var(--fc);
 }
@@ -110,6 +120,20 @@ html, body {
 
 .lucide {
     color: var(--fc);
+}
+
+#themeToggle {
+    color: var(--fc);
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 30px;
+}
+
+#themeToggle:hover {
+    color: gray;
 }
 
 @media screen and (max-width: 1400px) {
