@@ -29,7 +29,7 @@ function checkTime(i) {
 }
 
 const apiKey = "put your api key here";
-const city = "Marikina";
+const city = "put your location here";
 const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
 
 fetch(apiUrl)
