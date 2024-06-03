@@ -18,7 +18,7 @@ go to **index.html** and type your name on **line 20**
     <img src="assets/html.png" alt="HTML Icon" style="display: block; margin: 20px auto;">
 </div>
 
-insert your **API key** and **location** on **script.js** **lines 31** and **32**
+insert your **API key** and **location** on **script.js** **lines 31** and **32**. To obtain your API key, make an account in [openweathermap.org](https://openweathermap.org/) and your API key will be generated and be located in *your account name* / My API Keys. 
 
 <div style="text-align: center;">
     <img src="assets/add.png" alt="Add Icon" style="display: block; margin: 20px auto;">
