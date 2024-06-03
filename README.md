@@ -26,7 +26,7 @@ insert your **API key** and **location** on **script.js** **lines 31** and **32*
 
 ### THEN OPEN GOOGLE CHROME
 
-go to [chrome://extensions/](chrome://extensions/) and enable **developer mode** on the upper right corner.
+go to **chrome://extensions/** and enable **developer mode** on the upper right corner.
 
 <div style="text-align: center;">
     <img src="assets/developer.png" alt="Developer Mode" style="margin: auto;">
