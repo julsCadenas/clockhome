@@ -12,13 +12,13 @@ A website created as a replacement for chrome's startup or new tab page. This wo
 
 ## HOW TO SET UP?
 
-go to **index.html** and type your name on **line 20**
+Go to **index.html** and type your name on **line 20**. You can also modify the hyperlinks for your own personalized use.
 
 <div style="text-align: center;">
     <img src="assets/html.png" alt="HTML Icon" style="display: block; margin: 20px auto;">
 </div>
 
-insert your **API key** and **location** on **script.js** **lines 31** and **32**. To obtain your API key, make an account in [openweathermap.org](https://openweathermap.org/) and your API key will be generated and be located in *your account name* / My API Keys. 
+Insert your **API key** and **location** on **script.js** **lines 31** and **32**. To obtain your API key, make an account in [openweathermap.org](https://openweathermap.org/) and your API key will be generated and be located in *your account name* / My API Keys. 
 
 <div style="text-align: center;">
     <img src="assets/add.png" alt="Add Icon" style="display: block; margin: 20px auto;">
@@ -26,13 +26,13 @@ insert your **API key** and **location** on **script.js** **lines 31** and **32*
 
 ### THEN OPEN GOOGLE CHROME
 
-go to **chrome://extensions/** and enable **developer mode** on the upper right corner.
+Go to **chrome://extensions/** and enable **developer mode** on the upper right corner.
 
 <div style="text-align: center;">
     <img src="assets/developer.png" alt="Developer Mode" style="margin: auto;">
 </div>
 
-click **load unpacked** from the upper left corner and select this folder.
+Click **load unpacked** from the upper left corner and select this folder.
 
 <div style="text-align: center;">
     <img src="assets/load.png" alt="Load Unpacked" style="display: block; margin: 0 auto;">
