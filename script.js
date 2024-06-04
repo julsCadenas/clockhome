@@ -86,3 +86,13 @@ function lightMode() {
         localStorage.setItem('themePreference', 'dark');
     }
 }
+
+document.addEventListener('click', function(event) {
+    const isClickInsideSidebar = sidebar.contains(event.target);
+    const isClickInsideMenuBtn = menuBtn.contains(event.target);
+
+    if (!isClickInsideSidebar && !isClickInsideMenuBtn) {
+        sidebar.style.right = '-230px';
+        sidebarBtn.style.right = "0px";
+    }
+});
